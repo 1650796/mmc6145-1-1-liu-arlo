@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import styles from '../styles/button.module.css'
 
+
 function Projectone() {
     return (
         <div className='projectOne'>
@@ -21,7 +22,7 @@ function Projecttwo() {
         <div className='projectTwo'>
             <h3>Full-stack Application</h3>
             <p>
-                I am just a poor little meow meow.
+                Check out my full-stack application.
             </p>
             <button className={styles.button}>
             <Link style={{margin: "5px"}} to="/projecttwo">Project 2</Link>
