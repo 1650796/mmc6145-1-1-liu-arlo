@@ -3,11 +3,10 @@
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
-    margin: 20px;
   
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
-    background-color: #242424;
+    background-color: #151b31;
   
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -15,30 +14,98 @@
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
   }
+
+  main {
+    margin: 20px;
+  }
+
+  header {
+    font-size: 18px;
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 30px;
+    text-align: right;
+
+  }
+
+  article {
+    box-sizing: border-box;
+    margin: auto;
+    background-color: rgb(17, 61, 79);
+    padding: 50px;
+    text-align: center;
+    max-width: 50%;
+    border-radius: 10px;
+  }
   
   a {
     font-weight: 500;
     color: #ff6464;
     text-decoration: inherit;
-    margin: 12px;
   }
   a:hover {
     color: #d73737;
   }
   
   body {
-    margin: 0;
-    display: flex;
+    margin: 0px;
+    padding: 0px;
+    /*display: flex;*/
     place-items: center;
-    min-width: 320px;
-    min-height: 100vh;
   }
   
   h1 {
-    font-size: 3.2em;
+    font-size: 60px;
     line-height: 1.1;
+    text-align: center;
   }
-  
+
+  h2 {
+    font-size: 48px;
+    line-height: 1.1;
+    text-align: center;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projectOne { 
+    min-width: 300px;
+    width: 50%;
+    height: 400px;
+    margin-bottom: 100px;
+    background-color: rgba(33, 47, 118, 0.42);
+    padding: 50px;
+    text-align: center; 
+    background-image: url("p2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    color: #fff;  
+    border-radius: 10px;
+  }
+
+  .projectTwo {
+    min-width: 300px;
+    width: 50%;
+    height: 400px;
+    margin-bottom: 100px;
+    background-color: rgba(33, 47, 118, 0.42);
+    padding: 50px;
+    text-align: center; 
+    background-image: url("p1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    color: #fff;  
+    border-radius: 10px;
+  }
+
   button {
     border-radius: 8px;
     border: 1px solid transparent;
@@ -50,12 +117,19 @@
     cursor: pointer;
     transition: border-color 0.25s;
   }
+  
   button:hover {
     border-color: #646cff;
   }
+
   button:focus,
   button:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
   }
   
   @media (prefers-color-scheme: light) {
