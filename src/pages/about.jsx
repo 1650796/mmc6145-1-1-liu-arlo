@@ -1,4 +1,5 @@
-//import styles from '../styles/about.module.css'
+import styles from '../styles/button.module.css'
+import { Link } from 'react-router-dom'
 
 
 export default function About() {
@@ -11,6 +12,9 @@ export default function About() {
         <br></br>
         Quas cupiditate cumque corrupti, quos accusantium minima, saepe omnis sit sint, aliquid corporis assumenda culpa ratione. Odio distinctio exercitationem nemo, tempora aliquid necessitatibus debitis error, dolorum, veritatis reprehenderit reiciendis. Odio.</p>
         <br></br>
+        <button className={styles.button}>
+          <Link style={{margin: "5px"}} to="/">My work</Link>
+        </button>
         </article>
     </main>
   )
