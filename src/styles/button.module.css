@@ -1,4 +1,4 @@
-button { 
+.button { 
     border-radius: 8px;
     border: 1px solid transparent;
     padding: 0.6em 1.2em;
@@ -8,18 +8,19 @@ button {
     background-color: #ff9090;
     cursor: pointer;
     transition: background-color 0.25s;
+    color: #151b31;
   }
   
-  button:hover {
+  .button:hover {
     background-color: #de5757;
   }
 
-  button:focus,
-  button:focus-visible {
+  .button:focus,
+  .button:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
   }
 
-  article a {
+  /*article a {
     font-weight: 500;
     color: #151b31;
   }
@@ -27,4 +28,4 @@ button {
   section a {
     font-weight: 500;
     color: #151b31;
-  }
+  }*/

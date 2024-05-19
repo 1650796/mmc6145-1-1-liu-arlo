@@ -1,9 +1,0 @@
-.box {
-    box-sizing: border-box;
-    width: 100%;
-    margin: auto;
-    background-color: rgb(17, 61, 79);
-    padding: 50px;
-    text-align: center;
-    max-width: 50%;
-}

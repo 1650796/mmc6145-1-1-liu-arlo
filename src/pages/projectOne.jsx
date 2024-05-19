@@ -1,13 +1,17 @@
 export default function ProjectOne() {
   return (
     <main>
-        <h1>Project 1</h1>
+        <h2>Portiko Technologies Brand Identity Guide</h2>
         <article>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptate fugiat voluptatibus dolor facere asperiores iure quae fuga, maiores ipsum perspiciatis omnis, repellat, commodi nulla qui amet in consectetur vero. Sapiente quia rem molestiae possimus expedita ratione dolore, delectus blanditiis, soluta, dolor libero quis? Aperiam, incidunt nulla quo pariatur iusto sapiente quam quaerat ab voluptatum perspiciatis impedit excepturi mollitia doloremque. 
-        <br></br> 
+        <p>For this project, I created a Brand Identity Guide for the fictional company Portiko Technologies. The guide consisted of a custom company logo, a business card design, a letterhead, a mockup of the company website's homepage, and a two-page style guide. </p>
+
+        <img
+            src="ptlogo.png"
+            alt="Portiko Technologies unofficial logo design"
+            className="logo"
+        />
         <br></br>
-        Quas cupiditate cumque corrupti, quos accusantium minima, saepe omnis sit sint, aliquid corporis assumenda culpa ratione. Odio distinctio exercitationem nemo, tempora aliquid necessitatibus debitis error, dolorum, veritatis reprehenderit reiciendis. Odio.</p>
-        <br></br>
+        <p>Take a look at the <a href="https://drive.google.com/file/d/18N58BzfEpi67DJPtFASbEWbATjzlYyvo/view?usp=sharing">Portiko Technologies Brand Identity Guide</a></p>
         </article>
     </main>
   )

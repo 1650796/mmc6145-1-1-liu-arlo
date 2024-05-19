@@ -1,12 +1,23 @@
 export default function ProjectTwo() {
     return (
       <main>
-          <h1>Project 2</h1>
+          <h2>The Goals App</h2>
           <article>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptate fugiat voluptatibus dolor facere asperiores iure quae fuga, maiores ipsum perspiciatis omnis, repellat, commodi nulla qui amet in consectetur vero. Sapiente quia rem molestiae possimus expedita ratione dolore, delectus blanditiis, soluta, dolor libero quis? Aperiam, incidunt nulla quo pariatur iusto sapiente quam quaerat ab voluptatum perspiciatis impedit excepturi mollitia doloremque. 
-          <br></br> 
+          <p>This was an Express app I built to help users track their goals. With this app, users are able to quickly create an account and then begin adding goals to their Goals List. Once a goal is accomplished, the user can easily delete it from the list. There is also a feature to generate a random quote via an external API if they are in need of some motivation. </p>
+
+          <img
+            src="goalsapp.png"
+            alt="Goals App home page"
+            className="screenshot"
+          />
           <br></br>
-          Quas cupiditate cumque corrupti, quos accusantium minima, saepe omnis sit sint, aliquid corporis assumenda culpa ratione. Odio distinctio exercitationem nemo, tempora aliquid necessitatibus debitis error, dolorum, veritatis reprehenderit reiciendis. Odio.</p>
+          <img
+            src="goalsapp2.png"
+            alt="Goals App goals page"
+            className="screenshot"
+          />
+
+          <p>Take a look at the <a href="https://github.com/1650796/the-goals-app-liu/">source code</a>.</p>
           <br></br>
           </article>
       </main>

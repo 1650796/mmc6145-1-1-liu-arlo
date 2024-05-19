@@ -7,11 +7,11 @@ function Projectone() {
         <div className='projectOne'>
             <h3>Full Brand Identity Guide</h3>
             <p>
-                Check out my brand identity guide.
+                Check out the brand identity guide I created.
             </p>
             
             <button className={styles.button}>
-            <Link style={{margin: "5px"}} to="/projectone">Project 1</Link>
+            <Link style={{color: "#151b31"}} to="/projectone">Project 1</Link>
             </button>
          </div>
     )
@@ -20,12 +20,12 @@ function Projectone() {
 function Projecttwo() {
     return (
         <div className='projectTwo'>
-            <h3>Full-stack Application</h3>
+            <h3>Full-Stack Application</h3>
             <p>
-                Check out my full-stack application.
+                Check out the full-stack application I built.
             </p>
             <button className={styles.button}>
-            <Link style={{margin: "5px"}} to="/projecttwo">Project 2</Link>
+            <Link style={{color: "#151b31"}} to="/projecttwo">Project 2</Link>
             </button>
          </div>
     )
