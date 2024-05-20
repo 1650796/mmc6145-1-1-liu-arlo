@@ -76,7 +76,7 @@
   }
 
   .hero {
-    background-image: url("doubleexposure.png");
+    background-image: url("/doubleexposure.png");
     width:auto;
     height: 400px;
     margin-bottom: 100px;
@@ -114,7 +114,7 @@
     background-color: rgba(33, 47, 118, 0.42);
     padding: 50px;
     text-align: left; 
-    background-image: url("p2.jpg");
+    background-image: url("/p2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -131,7 +131,7 @@
     background-color: rgba(33, 47, 118, 0.42);
     padding: 50px;
     text-align: left; 
-    background-image: url("p1.jpg");
+    background-image: url("/p1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
