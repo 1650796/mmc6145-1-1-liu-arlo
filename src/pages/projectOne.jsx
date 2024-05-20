@@ -11,7 +11,7 @@ export default function ProjectOne() {
             className="logo"
         />
         <br></br>
-        <p>Take a look at the <a href="https://drive.google.com/file/d/18N58BzfEpi67DJPtFASbEWbATjzlYyvo/view?usp=sharing">Portiko Technologies Brand Identity Guide</a></p>
+        <p>Take a look at my <a href="https://drive.google.com/file/d/18N58BzfEpi67DJPtFASbEWbATjzlYyvo/view?usp=sharing">Portiko Technologies Brand Identity Guide</a>.</p>
         </article>
     </main>
   )

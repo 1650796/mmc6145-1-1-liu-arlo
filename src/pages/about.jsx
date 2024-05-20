@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export default function About() {
   return (
     <main>
-        <h1>About Me</h1>
+        <h1 style={{textAlign:"center"}}>About Me</h1>
         <article>
         <p>Hi, my name is Arlo. </p>
 
