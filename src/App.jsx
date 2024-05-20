@@ -4,7 +4,7 @@ import Footer from './components/footer'
 import Home from './pages/home'
 import About from './pages/about'
 import Contact from './pages/contact'
-import ProjectOne from './pages/projectone'
+import ProjectOne from './pages/projectOne'
 import ProjectTwo from './pages/projecttwo'
 //import './App.css'
 
@@ -17,7 +17,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/projectone" element={<ProjectOne />} />
+        <Route path="/projectOne" element={<ProjectOne />} />
         <Route path="/projecttwo" element={<ProjectTwo />} />
       </Routes>
       <Footer />
