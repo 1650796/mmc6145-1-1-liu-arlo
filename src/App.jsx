@@ -5,7 +5,7 @@ import Home from './pages/home'
 import About from './pages/about'
 import Contact from './pages/contact'
 import ProjectOne from './pages/projectOne'
-import ProjectTwo from './pages/projecttwo'
+import ProjectTwo from './pages/projectTwo'
 //import './App.css'
 
 
@@ -18,7 +18,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projectOne" element={<ProjectOne />} />
-        <Route path="/projecttwo" element={<ProjectTwo />} />
+        <Route path="/projectTwo" element={<ProjectTwo />} />
       </Routes>
       <Footer />
     </>
